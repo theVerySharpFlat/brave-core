@@ -6,7 +6,6 @@ _root_dir=$(dirname $(greadlink -f $0))
 
 npm install
 
-npm config set target_arch arm
-
 npm run init
 
+npm config set target_arch arm
